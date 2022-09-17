@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Events | Imperial College London Charity Week</title>
+
+   <!-- Font awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+   <!-- CSS  -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="../css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+   <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+   <link href="../css/misc.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+   <!-- Icon -->
+   <link rel="shortcut icon" href="../img/cw-logo-orange.ico" type="image/x-icon" />
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145411724-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-145411724-1');
+   </script>
+
+</head>
+
+<body class="fade">
+
+   <!-- Navbar -->
+   <header class="nav">
+      <div class="navbar-fixed">
+         <nav class="nav-wrapper blue darken-1">
+            <div class="container">
+               <a class="brand-logo" href="./">
+                  <img class="responsive-image hide-on-med-and-down" style="height: 50px; margin-top: 5px;" src="../img/cw-logo.png" alt="Logo">
+               </a>
+
+               <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                  <i class="material-icons white-text">menu</i>
+               </a>
+               <ul class="right hide-on-med-and-down valign-wrapper">
+                  <li><a class="white-text" href="https://imperialcharityweek.co.uk/">Home</a></li>
+                  <li><a class="white-text" href="https://imperialcharityweek.co.uk/">About</a></li>
+                  <li><a class="white-text" href="https://imperialcharityweek.co.uk/events">Events</a></li>
+                  <li><a class="white-text" href="https://imperialcharityweek.co.uk/contact">Contact</a></li>
+                  <li><a class="white-text" href="https://imperialcharityweek.co.uk/archive">Archive</a></li>
+
+                  <li><a href="https://www.facebook.com/ImperialCW/"
+                        class="btn-floating transparent z-depth-0 waves-effect waves-light">
+                        <i class="fab fa-facebook"></i>
+                     </a></li>
+                  <li><a href="https://www.instagram.com/imperialcollegecw/"
+                        class="btn-floating transparent z-depth-0 waves-effect waves-light">
+                        <i class="fab fa-instagram"></i>
+                     </a></li>
+                  <li><a href="https://twitter.com/impcw"
+                        class="btn-floating transparent z-depth-0 waves-effect waves-light">
+                        <i class="fab fa-twitter"></i>
+                     </a></li>
+                  <li><a class="white-text btn orange darken-2 waves-effect waves-light"
+                        href="https://charityweek-schools.islamic-relief.org.uk/fundraising/imperial-college-charity-week-2021-auction-di">Donate</a></li>
+               </ul>
+
+
+            </div>
+         </nav>
+      </div>
+      <ul class="sidenav" id="mobile-menu">
+         <li><a class="sidenav-close" href="https://imperialcharityweek.co.uk/">Home</a></li>
+         <li><a class="sidenav-close" href="https://imperialcharityweek.co.uk/">About</a></li>
+         <li><a class="sidenav-close" href="https://imperialcharityweek.co.uk/events">Events</a></li>
+         <li><a class="sidenav-close" href="https://imperialcharityweek.co.uk/contact">Contact</a></li>
+         <li><a class="sidenav-close" href="https://imperialcharityweek.co.uk/archive">Archive</a></li>
+
+         <li><a class="sidenav-close" href="https://www.facebook.com/ImperialCW/"><i
+                  class="black-text fab fa-facebook"></i></a>
+         </li>
+         <li><a class="sidenav-close" href="https://www.instagram.com/imperialcollegecw/"> <i
+                  class="black-text fab fa-instagram"></i></a></li>
+         <li><a class="sidenav-close" href="https://twitter.com/impcw"> <i class="black-text fab fa-twitter"></i></a>
+         </li>
+         <li><a class="sidenav-close" href="https://charityweek-schools.islamic-relief.org.uk/fundraising/imperial-college-charity-week-2021-auction-di">Donate</a>
+         </li>
+      </ul>
+   </header>
+
+   <main>
+
+      <div class="container">
+         <h3 class="header center blue-text text-darken-1">Events</h3>
+         <div class="row event-container" id="event-cards"></div>
+         <div class="row">
+            <div class="col s12 l4 m6 push-m3 push-l4">
+               <div class="card">
+                  <div class="card-content">
+                     <span class="card-title"><b>Coming soon</b></span>
+                     <p>More events are coming soon so watch this space!</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </main>
+
+
+   <!-- Scroll to top FAB -->
+   <div class="fixed-action-btn scale-transition scale-out scroll-to-top">
+      <a href="#top" class="btn-floating btn-large orange darken-2 waves-effect waves-light">
+         <i class="large material-icons">keyboard_arrow_up</i>
+      </a>
+   </div>
+
+   <!-- Footer -->
+   <footer class="page-footer grey darken-3"></footer>
+
+   <!--  Scripts -->
+
+   <!-- External scripts -->
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="../js/materialize.min.js"></script>
+
+   <!-- Common scripts used for websites functionality -->
+   <script src="../js/init.js"></script>
+   <script src='../js/fab.js'></script>
+   <!-- hoverable class produces a large shadow -->
+   <script src='../js/main-page-tablet-optimisations.js'></script>
+
+   <!-- Loads footer -->
+   <script>
+      $(document).ready(function () {
+         $(".page-footer").load("../html-sections/footer.html");
+
+         var requestURL = './events.json';
+         var request = new XMLHttpRequest();
+         request.open('GET', requestURL);
+         request.responseType = 'json';
+         request.send();
+
+         request.onload = function () {
+            var response = request.response['events'];
+            var numEvents = response.length;
+            for (var i = 0; i < numEvents; i++) {
+               var event = response[i];
+               var additionalClasses = "";
+               
+               var line = `<div class="col s12 m6 l4 event ` + additionalClasses + `">
+                              <div class="card hoverable" onclick="location.href='` + event["location"] + `';">
+                                 <div class="card-image">
+                                    <img src=".` + event["image"] + `" alt="` + event["name"] + `">
+                                 </div>
+                                 <div class="card-content">
+                                    <span class="card-title"><b>` + event["name"] + `</b></span>
+                                    <p>` + event["short"] + `</p>
+                                 </div>
+                              </div>
+                           </div>`;
+               if (event["image"] == "") {
+                  line = `<div class="col s12 m6 l4">
+                           </div>`;
+               }
+               $("#event-cards").append(line);
+            }
+         }
+         setTimeout(function(){ document.body.className = ''; }, 300);
+         
+
+      });
+   </script>
+
+</body>
+
+</html>
